@@ -5,3 +5,6 @@ stock_prices=20.0
 print("公司名称：",name, "上市日期：",up_date, "股票价格：",stock_prices)#方案1，逗号隔开
 print(f"公司名称：{name},上市日期：{up_date},股票价格:{stock_prices}")#方案2，变量格式化{}不在乎变量格式
 #print(f"{name},{Date},{prices}")
+name = "张三"
+age = 18
+print("我叫" + name + "，今年" + str(age) + "岁")
